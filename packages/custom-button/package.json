@@ -24,7 +24,7 @@
     "start": "web-dev-server"
   },
   "name": "custom-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webcomponent custom-button following open-wc recommendations",
   "author": "custom-button",
   "license": "MIT",
