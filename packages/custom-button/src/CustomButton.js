@@ -1,5 +1,4 @@
 import { LitElement, html, css } from 'lit-element';
-import { openWcLogo } from './open-wc-logo.js';
 
 export class CustomButton extends LitElement {
   static get properties() {
@@ -10,7 +9,7 @@ export class CustomButton extends LitElement {
 
   static get styles() {
     return css`
-      button{
+      button {
         padding: 10px;
       }
     `;
@@ -18,6 +17,7 @@ export class CustomButton extends LitElement {
 
   render() {
     return html`
+      <h1>Test</h1>
       <button>${this.text}</button>
     `;
   }
